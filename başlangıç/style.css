@@ -1,0 +1,234 @@
+ :root {
+  margin: 0px;
+  padding: 0%;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.arkpln {
+  margin: 0%;
+  padding: 0%;
+}
+.conteiner {
+  background-image: url(kk.jpg);
+  background-size: cover ;
+  margin: 0%;
+  padding: 0%;
+}
+.giriş {
+  margin: 0px;
+  padding: 110px;
+  font-size:xx-large ;
+  border-radius: 2%;
+  font-style: oblique;
+  color: rgb(48, 14, 80);
+}
+.Biz♥yazı {
+  margin:50px;
+  padding: 90px;
+  font-size:large;
+  background-color: rgb(246, 220, 220);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.başlık {
+  margin-top: 0px;
+  padding: auto;
+  cursor: pointer;
+}
+.başlık :hover {
+  filter: brightness(100%) hue-rotate(50deg);
+  transform: scale(1.60);
+  cursor: pointer;
+}
+.üst-kısım {
+  background-color: rgb(226, 100, 100);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+  height: 100px;
+  position:fixed;
+  align-items: center;
+  margin-top:0px;
+  padding:0%;
+}
+.kenar {
+  color: rgb(218, 192, 192);
+  width: 100%;
+  height: 100px;
+  margin: 80px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  width: auto;
+  display: flex;
+  height: 74px;
+  width: 500px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  text-decoration: none;
+}
+ a {
+ text-decoration:none ;
+ font-style: oblique;
+}
+.boş {
+  width: 150px;
+  height: 150px;
+}
+.yu {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.fo {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.ya{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.şa {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.f{
+  margin: 0px;
+  text-decoration: none;
+}
+.f:hover {
+  color: rgb(49, 39, 58);
+  transform: translateX(-12px);
+  cursor: pointer;
+}
+.y {
+ margin: 0px;
+}
+.y:hover {
+  color: rgb(56, 51, 60);
+  transform: translateX(-12px);
+  cursor: pointer;
+}
+.b {
+  margin: 0px;
+}
+.b:hover {
+  color: rgb(56, 51, 60);
+  transform: translateX(-12px);
+  cursor: pointer;
+}
+.sp {
+  display: block;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sp1 {
+  display: block;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sp2 {
+  display: block;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+*{
+  box-sizing: border-box;
+}
+.müzik img  {
+  margin: 50px;
+  padding: 20px;
+}
+.müzik img:hover{
+  filter: brightness(100%) hue-rotate(50deg);
+  transform: scale(1.10);
+  cursor: pointer;
+}
+.Biz♥ {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ margin: 80px;
+}
+.Biz♥resim img:hover{
+  filter: brightness(100%) hue-rotate(50deg);
+  transform: scale(1.60);
+  cursor: pointer;
+}
+.sp{
+  display: flex;
+  gap: 10px;
+}
+.sp .sp1 .sp2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.müzik{
+  margin: 0px;
+  padding: 0%;
+  height: 100vh;
+  width: 400%;
+}
+.iç{
+  margin-left: 0px;
+  padding: 0px;
+  font-size:x-large ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: rgb(63, 4, 4);
+  text-align: center;
+}
+.fotiler {
+  gap: 10px;
+  padding: 150px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.foti1 .foti2 .foti3 .foti4 .foti5 .foti6 .foti6 .foti7 .foti8 .foti9 .foti10 .foti11 .foti12{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-self: center;
+}
+.fotiler img:hover{
+  transform: scale(1.80);
+  cursor: pointer;
+}
+.yap {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 50px;
+  padding: 50px;
+}
